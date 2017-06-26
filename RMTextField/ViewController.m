@@ -29,6 +29,12 @@
 	lineLayer.frame = CGRectMake(30, 150, [UIScreen mainScreen].bounds.size.width - 60, 2);
 	lineLayer.backgroundColor = [UIColor redColor].CGColor;
 	[self.view.layer addSublayer:lineLayer];
+	
+	double x = 12345678901234.56;
+	NSLog(@"%f", x * 10);
+	
+	NSString *y = @"12345678901234.56";
+	NSLog(@"%f", [y doubleValue]);
 }
 
 

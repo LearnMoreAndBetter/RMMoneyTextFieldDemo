@@ -52,15 +52,15 @@
 		NSMutableString *det = [[intStr substringFromIndex:y] mutableCopy];
 		
 		
-		for (int i =0; i < count; i ++) {
+		for (int i = 0; i < count; i ++) {
 			
-			NSInteger index = i + i *3;
+			NSInteger index = i + i * 3;
 			
 			[det insertString:@","atIndex:index];
 			
 		}
 		
-		if (y ==0) {
+		if (y == 0) {
 			
 			det = [[det substringFromIndex:1]mutableCopy];
 			
